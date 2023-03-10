@@ -7,9 +7,9 @@ class SumDig{
 		int sum=0,rem;
 		  while (no>0) {
 		  	 rem=no%10;
-             sum=sum+rem;
-             no=no/10;
+                         sum=sum+rem;
+                         no=no/10;
 		  }
-	System.out.print("The Number of Digits is "+sum);
+	System.out.print("The Sun of Digits is "+sum);
 	}
 }
