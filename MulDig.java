@@ -7,8 +7,8 @@ class MulDig{
 		int mul=1,rem;
 		  while (no>0) {
 		  	 rem=no%10;
-             mul=mul*rem;
-             no=no/10;
+                         mul=mul*rem;
+                  vvv    no=no/10;
 		  }
 	System.out.print("The Multiplication is "+mul);
 	}
