@@ -7,10 +7,10 @@ class AmsngNo{
 		int rem,sum=0;
 		int no1=no;
 		do{
-           rem=no1%10;
-           rem=rem*rem*rem;
-           sum=sum+rem;
-           no1=no1/10;
+                 rem=no1%10;
+                 rem=rem*rem*rem;
+                 sum=sum+rem;
+                 no1=no1/10;
 		}while(no1>0);
 
 		if (sum==no) {
