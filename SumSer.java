@@ -5,7 +5,7 @@ class SumSer{
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter the value of x: ");
 		int x=sc.nextInt();
-	    double sum=1;
+	        double sum=1;
 		 for (int i=1;i<=x ;i++) {
 		 	sum=sum+(Math.pow(x,i)/i);
 		 }
