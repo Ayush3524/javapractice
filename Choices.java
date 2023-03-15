@@ -14,7 +14,7 @@ class Choices{
      	case 2:
      		System.out.println("Enter The Number: ");
      		int a=sc.nextInt();
-     		System.out.println("The Square of "+a+" is "+(a*a*a));
+     		System.out.println("The Cube of "+a+" is "+(a*a*a));
      		break;
      	case 3:
      		System.out.println("Enter The Year: ");
