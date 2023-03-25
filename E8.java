@@ -1,6 +1,10 @@
-class E8{
+class Timer{
 	public static void main(String[] args) {
-		int a=10,b=20;
-		System.out.println("Value="+(a+b));
+		try{
+			for (int i=1;i<=10 ;++i ) {
+				System.out.println(i);
+				Thread.sleep(400);
+			}
+		}catch(Exception e){}
 	}
 }
